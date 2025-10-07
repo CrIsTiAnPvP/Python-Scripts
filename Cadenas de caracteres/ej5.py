@@ -1,0 +1,1 @@
+n = input('Introduce una palabra: '); print(n[::-1])
