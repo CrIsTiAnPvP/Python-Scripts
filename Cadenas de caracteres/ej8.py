@@ -1,0 +1,1 @@
+p = input('Introduce el precio con 2 decimales: '); print(f'{p.replace(',','.').split('.')[0]}€ y {p.replace(',','.').split('.')[-1]} cents')
