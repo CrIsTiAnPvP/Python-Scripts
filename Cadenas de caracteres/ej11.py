@@ -1,0 +1,1 @@
+n, p, c = input('Introduce el nombre del producto: '), float(input('Introduce el precio del producto: ')), int(input('Introduce una cantidad: ')); print(f'Artículo: {n}, precio Ud.: {p:09.2f}, unidades: {c:03}, coste: {(c*p):011.2f}')
