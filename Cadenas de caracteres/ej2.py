@@ -1,0 +1,1 @@
+nombre = input('Introduce tu nombre y apellidos: '); print(nombre.upper(), nombre.lower(), ' '.join([x.capitalize() for x in nombre.split(' ')]), sep='\n')
