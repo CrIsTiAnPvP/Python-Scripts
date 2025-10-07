@@ -1,0 +1,1 @@
+l = input('Introduce una lista de artículos separados por coma: '); print(f'{'\n'.join(l.replace(' ', '').split(','))}')
