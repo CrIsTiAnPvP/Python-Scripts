@@ -1,0 +1,5 @@
+tel = input('Intruduce tu número de teléfono (+34-Num-XX): ')
+if not tel.startswith('+34'): print('El número de teléfono debe empezar por +34+')
+elif not len(tel.split('-')) == 3: print('El número de teléfono debe tener el formato +34-Num-XX')
+elif len(tel.split('-')[-1]) < 2 or len(tel.split('-')[-1]) > 2: print('La longitud de la extensión es de 2 dígitos')
+else: print(tel.split('-')[1])
