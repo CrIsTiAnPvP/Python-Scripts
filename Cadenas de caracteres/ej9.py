@@ -1,0 +1,5 @@
+fe = input('Introduce tu fecha de nacimiento dd/mm/aaaa: ')
+if len(fe.split('/')) < 3: print('Debes introducir Dia, Mes y Año')
+elif len(fe.split('/')[-1]) < 4: print('Debes introducir el año completo')
+elif len(fe.split('/')[0]) < 1 or len(fe.split('/')[1]) < 1: print("Debes introducir Dia y mes")
+else: print(f'Dia: {fe.split('/')[0]}\nMes: {fe.split('/')[1]}\nAño: {fe.split('/')[-1]}')
