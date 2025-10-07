@@ -1,0 +1,1 @@
+f, v = input('Introduce una frase: '), input('Introduce una vocal de esa frase: '); print(f.lower().replace(v.lower(), v.upper()))
