@@ -1,0 +1,1 @@
+user, cantidad = input('Introduce tu nombre de usuario: '), int(input('Introduce la cantidad de veces que quieres que se repita tu nombre: ')); print(f'{user}\n'*cantidad)
