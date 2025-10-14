@@ -1,0 +1,1 @@
+n = int(input("Introduce un número entero: ")); print(f"El número {n} es {"par" if n % 2 == 0 else "impar"}")
