@@ -1,0 +1,1 @@
+e = float(input("Introduce tu edad: ")); print("Eres mayor de edad" if e >= 18 else "Eres menor de edad")
