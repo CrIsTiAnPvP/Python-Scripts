@@ -1,0 +1,1 @@
+n, s = input("Introduce tu nombre: "), input("Introduce tu sexo (f/m): "); print("Perteneces al grupo A" if n[0].upper() < "M" and s.lower() == "f" or n[0].upper() > "N" and s.lower() == "m" else "Perteneces al grupo B")
