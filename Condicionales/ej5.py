@@ -1,0 +1,1 @@
+e, i = int(input("Introduce tu edad: ")), float(input("Introduce tus ingresos mensuales: ")); print("Debes tributar" if e >= 16 and i >= 1000 else "No debes tributar")
