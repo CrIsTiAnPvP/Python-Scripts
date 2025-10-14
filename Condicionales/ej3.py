@@ -1,0 +1,1 @@
+n1, n2 = float(input("Introduce un número: ")), float(input("Introduce otro número: ")); print(n1 / n2 if n2 != 0 else "Error, el divisor no puede ser 0")
