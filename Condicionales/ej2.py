@@ -1,0 +1,1 @@
+c, u = "contraseña", input("Introduce la contraseña: "); print("Contraseña correcta!" if c == u else "Contraseña incorrecta!")
