@@ -1,0 +1,1 @@
+asignaturas = ['Matemáticas', 'Física', 'Química', 'Historia', 'Lengua'];print("Asignaturas disponibles:");print(", ".join(asignaturas))
